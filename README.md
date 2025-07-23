@@ -13,7 +13,7 @@ A real-time full-stack chat application built with MERN stack (MongoDB, Express,
 - Backend: Node.js, Express.js, MongoDB
 - Real-time: Socket.IO
 - Auth: JWT
-- Styling: CSS / Chakra UI / Tailwind (your choice)
+- Styling: Tailwind
 
 ## Credits
 This project is based on an open-source repo by [burakorkmez](https://github.com/burakorkmez/fullstack-chat-app), licensed under the MIT License, and has been customized and extended.
