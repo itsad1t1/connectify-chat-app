@@ -1,42 +1,22 @@
-# ✨ Full Stack Realtime Chat App ✨
+# Connectify Chat App
 
-![Demo App](/frontend/public/screenshot-for-readme.png)
+A real-time full-stack chat application built with MERN stack (MongoDB, Express, React, Node.js) and Socket.IO.
 
-[Video Tutorial on Youtube](https://youtu.be/ntKkVrQqBYY)
+## Features
+- Realtime messaging
+- User authentication
+- Private & group chats
+- Responsive UI
 
-Highlights:
+## Tech Stack
+- Frontend: React.js, Context API, Axios
+- Backend: Node.js, Express.js, MongoDB
+- Real-time: Socket.IO
+- Auth: JWT
+- Styling: CSS / Chakra UI / Tailwind (your choice)
 
-- 🌟 Tech stack: MERN + Socket.io + TailwindCSS + Daisy UI
-- 🎃 Authentication && Authorization with JWT
-- 👾 Real-time messaging with Socket.io
-- 🚀 Online user status
-- 👌 Global state management with Zustand
-- 🐞 Error handling both on the server and on the client
-- ⭐ At the end Deployment like a pro for FREE!
-- ⏳ And much more!
+## Credits
+This project is based on an open-source repo by [burakorkmez](https://github.com/burakorkmez/fullstack-chat-app), licensed under the MIT License, and has been customized and extended.
 
-### Setup .env file
-
-```js
-MONGODB_URI=...
-PORT=5001
-JWT_SECRET=...
-
-CLOUDINARY_CLOUD_NAME=...
-CLOUDINARY_API_KEY=...
-CLOUDINARY_API_SECRET=...
-
-NODE_ENV=development
-```
-
-### Build the app
-
-```shell
-npm run build
-```
-
-### Start the app
-
-```shell
-npm start
-```
+## License
+This project is MIT licensed. See [LICENSE](LICENSE) for more.
